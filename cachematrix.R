@@ -27,7 +27,7 @@ makeCacheMatrix <- function(x = matrix()) {
 
 ## This function returns the inverse of the matrix-lke object created by the previous function.
 ## If the inverse has already been calculated it will retrieve it from the cache. If not, the function
-## calculates the inverse and then caches it. The amtrix is assumed to be invertible in this implementation.
+## calculates the inverse and then caches it. The matrix is assumed to be invertible in this implementation.
 
 cacheSolve <- function(x, ...) {
         
